@@ -20,9 +20,6 @@
 		2708F64D27C6D2BF00433A84 /* ItemValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F64C27C6D2BF00433A84 /* ItemValues.swift */; };
 		2708F64F27C6D3C100433A84 /* AddItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F64E27C6D3C100433A84 /* AddItemViewModel.swift */; };
 		2708F65127C6DCE600433A84 /* LIstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F65027C6DCE600433A84 /* LIstViewModel.swift */; };
-		2764F5A427C846D8005B46DB /* WarmthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2764F5A327C846D8005B46DB /* WarmthView.swift */; };
-		2764F5A627C94C74005B46DB /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2764F5A527C94C74005B46DB /* IngredientView.swift */; };
-		276F249E27C6EAEB001A3938 /* EnchantmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F249D27C6EAEB001A3938 /* EnchantmentView.swift */; };
 		276F24A027C706AE001A3938 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F249F27C706AE001A3938 /* ItemView.swift */; };
 		276F24A327C708B4001A3938 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F24A227C708B4001A3938 /* CategoryView.swift */; };
 		276F24A727C7C79F001A3938 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F24A627C7C79F001A3938 /* AddItemView.swift */; };
@@ -43,9 +40,6 @@
 		2708F64C27C6D2BF00433A84 /* ItemValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemValues.swift; sourceTree = "<group>"; };
 		2708F64E27C6D3C100433A84 /* AddItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewModel.swift; sourceTree = "<group>"; };
 		2708F65027C6DCE600433A84 /* LIstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIstViewModel.swift; sourceTree = "<group>"; };
-		2764F5A327C846D8005B46DB /* WarmthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmthView.swift; sourceTree = "<group>"; };
-		2764F5A527C94C74005B46DB /* IngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
-		276F249D27C6EAEB001A3938 /* EnchantmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnchantmentView.swift; sourceTree = "<group>"; };
 		276F249F27C706AE001A3938 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		276F24A227C708B4001A3938 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		276F24A627C7C79F001A3938 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
@@ -105,12 +99,9 @@
 			children = (
 				2708F63127C67AAD00433A84 /* QuestView.swift */,
 				276F249F27C706AE001A3938 /* ItemView.swift */,
-				2764F5A527C94C74005B46DB /* IngredientView.swift */,
 				2708F63F27C67B3E00433A84 /* InfoView.swift */,
-				276F249D27C6EAEB001A3938 /* EnchantmentView.swift */,
 				276F24A227C708B4001A3938 /* CategoryView.swift */,
 				276F24A627C7C79F001A3938 /* AddItemView.swift */,
-				2764F5A327C846D8005B46DB /* WarmthView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,10 +207,8 @@
 			files = (
 				2708F64D27C6D2BF00433A84 /* ItemValues.swift in Sources */,
 				2708F64227C6823400433A84 /* Item.swift in Sources */,
-				2764F5A627C94C74005B46DB /* IngredientView.swift in Sources */,
 				2708F64727C6C89B00433A84 /* PersistenceManager.swift in Sources */,
 				2708F64F27C6D3C100433A84 /* AddItemViewModel.swift in Sources */,
-				276F249E27C6EAEB001A3938 /* EnchantmentView.swift in Sources */,
 				2708F64027C67B3E00433A84 /* InfoView.swift in Sources */,
 				2708F64B27C6CF7700433A84 /* EffectRoll.swift in Sources */,
 				2708F65127C6DCE600433A84 /* LIstViewModel.swift in Sources */,
@@ -230,7 +219,6 @@
 				2708F64527C6C74300433A84 /* Stash.xcdatamodeld in Sources */,
 				2708F63027C67AAD00433A84 /* SkyrimTabsApp.swift in Sources */,
 				276F24A727C7C79F001A3938 /* AddItemView.swift in Sources */,
-				2764F5A427C846D8005B46DB /* WarmthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

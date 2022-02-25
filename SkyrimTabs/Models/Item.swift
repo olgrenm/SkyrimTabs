@@ -36,3 +36,12 @@ public class Item: NSManagedObject {
 }
 
 extension Item: Identifiable {}
+
+//new
+@MainActor class Items: ObservableObject {
+    @Published var stuff: [Item]
+    
+    init() {
+        stuff = []
+    }
+}

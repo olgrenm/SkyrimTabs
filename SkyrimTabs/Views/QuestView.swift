@@ -18,7 +18,7 @@ struct QuestView: View {
             SortDescriptor(\Item.isComplete, order: .forward),
             SortDescriptor(\Item.name, order: .forward)
         ],
-        predicate: NSPredicate(format: "category == %@", "quest"),
+        //predicate: NSPredicate(format: "category == %@", "quest"),
         animation: .default)
     private var items: FetchedResults<Item>
     
@@ -39,11 +39,16 @@ struct QuestView: View {
             newValue)
         }
     }
+    enum FilterType {
+        case quest, warmth, ingredient, enchantment, gear
+    }
+    
+    let filter: FilterType
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(items) { item in
+                ForEach(filteredItems) { item in
                     NavigationLink {
                         AddItemView(itemId: item.objectID)
                     } label: {
@@ -70,14 +75,44 @@ struct QuestView: View {
             .sheet(isPresented: $addViewShown) {
                 AddItemView()
             }
-            .navigationTitle("Quests")
+            .navigationTitle(title)
             .searchable(text: searchQuery)
+        }
+    }
+    
+    var title: String {
+        switch filter {
+        case .quest:
+            return "Quests"
+        case .warmth:
+            return "Warmth"
+        case .ingredient:
+            return "Ingredients"
+        case .enchantment:
+            return "Enchantments"
+        case .gear:
+            return "Gear"
+        }
+    }
+    
+    var filteredItems: [Item] {
+        switch filter {
+        case .quest:
+            return items.filter { $0.category == "quest" }
+        case .warmth:
+            return items.filter { $0.category == "warmth" }
+        case .ingredient:
+            return items.filter { $0.category == "ingredient" }
+        case .enchantment:
+            return items.filter { $0.category == "enchantment" }
+        case .gear:
+            return items.filter { $0.category == "gear" }
         }
     }
 }
 
 struct QuestView_Previews: PreviewProvider {
     static var previews: some View {
-        QuestView()
+        QuestView(filter: .quest)
     }
 }

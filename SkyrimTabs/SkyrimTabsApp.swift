@@ -12,22 +12,22 @@ struct SkyrimTabsApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
-                QuestView()
+                QuestView(filter: .quest)
                     .environment(\.managedObjectContext, PersistenceManager.shared.persistentContainer.viewContext)
                     .tabItem {
                         Label("Quests", systemImage: "crown")
                     }
-                IngredientView()
+                QuestView(filter: .ingredient)
                     .environment(\.managedObjectContext, PersistenceManager.shared.persistentContainer.viewContext)
                     .tabItem {
                         Label("Ingredients", systemImage: "leaf")
                     }
-                EnchantmentView()
+                QuestView(filter: .enchantment)
                     .environment(\.managedObjectContext, PersistenceManager.shared.persistentContainer.viewContext)
                     .tabItem {
                         Label("Enchantments", systemImage: "bolt")
                     }
-                WarmthView()
+                QuestView(filter: .warmth)
                     .environment(\.managedObjectContext, PersistenceManager.shared.persistentContainer.viewContext)
                     .tabItem {
                         Label("Warmth", systemImage: "flame")
