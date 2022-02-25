@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2708F63027C67AAD00433A84 /* SkyrimTabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F62F27C67AAD00433A84 /* SkyrimTabsApp.swift */; };
+		2708F63227C67AAD00433A84 /* QuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F63127C67AAD00433A84 /* QuestView.swift */; };
+		2708F63427C67AB100433A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2708F63327C67AB100433A84 /* Assets.xcassets */; };
+		2708F63727C67AB100433A84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2708F63627C67AB100433A84 /* Preview Assets.xcassets */; };
+		2708F64027C67B3E00433A84 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F63F27C67B3E00433A84 /* InfoView.swift */; };
+		2708F64227C6823400433A84 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F64127C6823400433A84 /* Item.swift */; };
+		2708F64527C6C74300433A84 /* Stash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2708F64327C6C74300433A84 /* Stash.xcdatamodeld */; };
+		2708F64727C6C89B00433A84 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F64627C6C89B00433A84 /* PersistenceManager.swift */; };
+		2708F64927C6CEB700433A84 /* MapIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F64827C6CEB700433A84 /* MapIcons.swift */; };
+		2708F64B27C6CF7700433A84 /* EffectRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F64A27C6CF7700433A84 /* EffectRoll.swift */; };
+		2708F64D27C6D2BF00433A84 /* ItemValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F64C27C6D2BF00433A84 /* ItemValues.swift */; };
+		2708F64F27C6D3C100433A84 /* AddItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F64E27C6D3C100433A84 /* AddItemViewModel.swift */; };
+		2708F65127C6DCE600433A84 /* LIstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2708F65027C6DCE600433A84 /* LIstViewModel.swift */; };
+		2764F5A427C846D8005B46DB /* WarmthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2764F5A327C846D8005B46DB /* WarmthView.swift */; };
+		2764F5A627C94C74005B46DB /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2764F5A527C94C74005B46DB /* IngredientView.swift */; };
+		276F249E27C6EAEB001A3938 /* EnchantmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F249D27C6EAEB001A3938 /* EnchantmentView.swift */; };
+		276F24A027C706AE001A3938 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F249F27C706AE001A3938 /* ItemView.swift */; };
+		276F24A327C708B4001A3938 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F24A227C708B4001A3938 /* CategoryView.swift */; };
+		276F24A727C7C79F001A3938 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F24A627C7C79F001A3938 /* AddItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2708F62C27C67AAD00433A84 /* SkyrimTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyrimTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2708F62F27C67AAD00433A84 /* SkyrimTabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyrimTabsApp.swift; sourceTree = "<group>"; };
+		2708F63127C67AAD00433A84 /* QuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestView.swift; sourceTree = "<group>"; };
+		2708F63327C67AB100433A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2708F63627C67AB100433A84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2708F63F27C67B3E00433A84 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		2708F64127C6823400433A84 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2708F64427C6C74300433A84 /* Stash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stash.xcdatamodel; sourceTree = "<group>"; };
+		2708F64627C6C89B00433A84 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		2708F64827C6CEB700433A84 /* MapIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapIcons.swift; sourceTree = "<group>"; };
+		2708F64A27C6CF7700433A84 /* EffectRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectRoll.swift; sourceTree = "<group>"; };
+		2708F64C27C6D2BF00433A84 /* ItemValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemValues.swift; sourceTree = "<group>"; };
+		2708F64E27C6D3C100433A84 /* AddItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewModel.swift; sourceTree = "<group>"; };
+		2708F65027C6DCE600433A84 /* LIstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIstViewModel.swift; sourceTree = "<group>"; };
+		2764F5A327C846D8005B46DB /* WarmthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmthView.swift; sourceTree = "<group>"; };
+		2764F5A527C94C74005B46DB /* IngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
+		276F249D27C6EAEB001A3938 /* EnchantmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnchantmentView.swift; sourceTree = "<group>"; };
+		276F249F27C706AE001A3938 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		276F24A227C708B4001A3938 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		276F24A627C7C79F001A3938 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2708F62927C67AAD00433A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2708F62327C67AAD00433A84 = {
+			isa = PBXGroup;
+			children = (
+				2708F62E27C67AAD00433A84 /* SkyrimTabs */,
+				2708F62D27C67AAD00433A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2708F62D27C67AAD00433A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2708F62C27C67AAD00433A84 /* SkyrimTabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2708F62E27C67AAD00433A84 /* SkyrimTabs */ = {
+			isa = PBXGroup;
+			children = (
+				276F24AA27C7D1C2001A3938 /* Data */,
+				276F24A927C7D18C001A3938 /* Models */,
+				276F24A827C7C9D0001A3938 /* Enums */,
+				276F24A127C70848001A3938 /* Views */,
+				2708F62F27C67AAD00433A84 /* SkyrimTabsApp.swift */,
+				2708F63327C67AB100433A84 /* Assets.xcassets */,
+				2708F63527C67AB100433A84 /* Preview Content */,
+			);
+			path = SkyrimTabs;
+			sourceTree = "<group>";
+		};
+		2708F63527C67AB100433A84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2708F63627C67AB100433A84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		276F24A127C70848001A3938 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2708F63127C67AAD00433A84 /* QuestView.swift */,
+				276F249F27C706AE001A3938 /* ItemView.swift */,
+				2764F5A527C94C74005B46DB /* IngredientView.swift */,
+				2708F63F27C67B3E00433A84 /* InfoView.swift */,
+				276F249D27C6EAEB001A3938 /* EnchantmentView.swift */,
+				276F24A227C708B4001A3938 /* CategoryView.swift */,
+				276F24A627C7C79F001A3938 /* AddItemView.swift */,
+				2764F5A327C846D8005B46DB /* WarmthView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		276F24A827C7C9D0001A3938 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				2708F64A27C6CF7700433A84 /* EffectRoll.swift */,
+				2708F64827C6CEB700433A84 /* MapIcons.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		276F24A927C7D18C001A3938 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2708F64127C6823400433A84 /* Item.swift */,
+				2708F64C27C6D2BF00433A84 /* ItemValues.swift */,
+				2708F65027C6DCE600433A84 /* LIstViewModel.swift */,
+				2708F64E27C6D3C100433A84 /* AddItemViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		276F24AA27C7D1C2001A3938 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2708F64327C6C74300433A84 /* Stash.xcdatamodeld */,
+				2708F64627C6C89B00433A84 /* PersistenceManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2708F62B27C67AAD00433A84 /* SkyrimTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2708F63A27C67AB100433A84 /* Build configuration list for PBXNativeTarget "SkyrimTabs" */;
+			buildPhases = (
+				2708F62827C67AAD00433A84 /* Sources */,
+				2708F62927C67AAD00433A84 /* Frameworks */,
+				2708F62A27C67AAD00433A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyrimTabs;
+			productName = SkyrimTabs;
+			productReference = 2708F62C27C67AAD00433A84 /* SkyrimTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2708F62427C67AAD00433A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2708F62B27C67AAD00433A84 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2708F62727C67AAD00433A84 /* Build configuration list for PBXProject "SkyrimTabs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2708F62327C67AAD00433A84;
+			productRefGroup = 2708F62D27C67AAD00433A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2708F62B27C67AAD00433A84 /* SkyrimTabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2708F62A27C67AAD00433A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2708F63727C67AB100433A84 /* Preview Assets.xcassets in Resources */,
+				2708F63427C67AB100433A84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2708F62827C67AAD00433A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2708F64D27C6D2BF00433A84 /* ItemValues.swift in Sources */,
+				2708F64227C6823400433A84 /* Item.swift in Sources */,
+				2764F5A627C94C74005B46DB /* IngredientView.swift in Sources */,
+				2708F64727C6C89B00433A84 /* PersistenceManager.swift in Sources */,
+				2708F64F27C6D3C100433A84 /* AddItemViewModel.swift in Sources */,
+				276F249E27C6EAEB001A3938 /* EnchantmentView.swift in Sources */,
+				2708F64027C67B3E00433A84 /* InfoView.swift in Sources */,
+				2708F64B27C6CF7700433A84 /* EffectRoll.swift in Sources */,
+				2708F65127C6DCE600433A84 /* LIstViewModel.swift in Sources */,
+				276F24A327C708B4001A3938 /* CategoryView.swift in Sources */,
+				2708F64927C6CEB700433A84 /* MapIcons.swift in Sources */,
+				276F24A027C706AE001A3938 /* ItemView.swift in Sources */,
+				2708F63227C67AAD00433A84 /* QuestView.swift in Sources */,
+				2708F64527C6C74300433A84 /* Stash.xcdatamodeld in Sources */,
+				2708F63027C67AAD00433A84 /* SkyrimTabsApp.swift in Sources */,
+				276F24A727C7C79F001A3938 /* AddItemView.swift in Sources */,
+				2764F5A427C846D8005B46DB /* WarmthView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2708F63827C67AB100433A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2708F63927C67AB100433A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2708F63B27C67AB100433A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyrimTabs/Preview Content\"";
+				DEVELOPMENT_TEAM = DH9PAJ5Y3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeolgren.SkyrimTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2708F63C27C67AB100433A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyrimTabs/Preview Content\"";
+				DEVELOPMENT_TEAM = DH9PAJ5Y3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeolgren.SkyrimTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2708F62727C67AAD00433A84 /* Build configuration list for PBXProject "SkyrimTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2708F63827C67AB100433A84 /* Debug */,
+				2708F63927C67AB100433A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2708F63A27C67AB100433A84 /* Build configuration list for PBXNativeTarget "SkyrimTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2708F63B27C67AB100433A84 /* Debug */,
+				2708F63C27C67AB100433A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2708F64327C6C74300433A84 /* Stash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2708F64427C6C74300433A84 /* Stash.xcdatamodel */,
+			);
+			currentVersion = 2708F64427C6C74300433A84 /* Stash.xcdatamodel */;
+			path = Stash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2708F62427C67AAD00433A84 /* Project object */;
+}
