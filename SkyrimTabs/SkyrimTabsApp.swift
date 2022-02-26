@@ -32,6 +32,11 @@ struct SkyrimTabsApp: App {
                     .tabItem {
                         Label("Warmth", systemImage: "flame")
                     }
+                QuestView(filter: .gear)
+                    .environment(\.managedObjectContext, PersistenceManager.shared.persistentContainer.viewContext)
+                    .tabItem {
+                        Label("Gear", systemImage: "wrench.and.screwdriver")
+                    }
                 InfoView()
                     .environment(\.managedObjectContext, PersistenceManager.shared.persistentContainer.viewContext)
                     .tabItem {
