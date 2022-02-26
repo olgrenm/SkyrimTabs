@@ -138,14 +138,18 @@ struct AddItemView: View {
                                         HStack {
                                             Image(systemName: "person")
                                             TextField("", text: $head)
+                                                .keyboardType(.decimalPad)
                                             Image(systemName: "tshirt")
                                             TextField("", text: $torso)
+                                                .keyboardType(.decimalPad)
                                         }
                                         HStack {
                                             Image(systemName: "hand.raised")
                                             TextField("", text: $hands)
+                                                .keyboardType(.decimalPad)
                                             Image(systemName: "figure.walk")
                                             TextField("", text: $feet)
+                                                .keyboardType(.decimalPad)
                                         }
                                     }
                                 }
