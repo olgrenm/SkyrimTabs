@@ -23,7 +23,7 @@ struct AddItemView: View {
     @State private var hasMapMarker = false
     @State private var loot = ""
     @State private var locationType = ""
-    @State private var locationTypes = ["Cave", "Ruins", "Mine", "Tomb", "NEED TO ADD"]
+    @State private var locationTypes = ["Camp", "Cave", "Daedric", "Docks", "Dragon lair", "Dwarven", "Farm", "Farm/mill", "Fort", "Giant", "Grove", "Imp Army", "Lthouse", "Lumber", "Mine", "Mtn Pass", "Orc hold", "Pt/Interest", "Pond", "Ruins", "Settlement", "Shack", "Shipwreck", "Stable", "Standing St", "Stclk Army", "Town", "Mine", "Tomb", "Tower", "Watch Tower", "NEED TO ADD"]
     @State private var head = ""
     @State private var torso = ""
     @State private var hands = ""
