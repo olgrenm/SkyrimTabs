@@ -36,6 +36,11 @@ struct AddItemView: View {
     @State private var canPlant = false
     @State private var input = ""
     
+    enum FocusField: Hashable {
+        case field
+    }
+    @FocusState private var focusedField: FocusField?
+    
     var itemId: NSManagedObjectID?
     let viewModel = AddItemViewModel()
     
@@ -47,6 +52,12 @@ struct AddItemView: View {
                     Section {
                         VStack {
                             TextField("Name", text: $name, prompt: Text("Name"))
+                                .focused($focusedField, equals: .field)
+                                .onAppear {
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                                        self.focusedField = .field
+                                    }
+                                }
                                 .disableAutocorrection(true)
                                 .font(.title)
                             if nameError {
